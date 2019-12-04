@@ -13,7 +13,6 @@ function init() {
 
 
 
-  // create scene to pin and link animation
   new ScrollMagic.Scene({
     triggerElement: "#js-wrapper",
     triggerHook: "onLeave",
@@ -21,7 +20,6 @@ function init() {
   })
     .setPin("#js-wrapper")
     .setTween(horizontalSlide)
-    //.addIndicators() // add indicators (requires plugin)
     .addTo(controller);
   
   

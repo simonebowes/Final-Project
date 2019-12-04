@@ -210,13 +210,19 @@ h1 {
   padding: 10px;
   opacity: 0.3;
   color: #fff;
+  border-radius: 60px;
   border: 2px solid white;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease-out;
   position: fixed;
-  right: 1360px;
-  top: 600px;
+    z-index: 99999;
+/*
+  right: 1960px;
+  top:900px;
+*/
+    left: 50px;
+    bottom: 200px;
 }
 
 .button:hover {
